@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* CSS Document 
+
+Author: Estelle Weyl 
+		http://www.standardista.com 
+		http://www.twitter.com/estellevw
+		
+You can add any background color to these to make checkered or tiles patterns in the color of your choice.
+
+
+
+*/
+
+.checkered {
+	background-image: /* Safari 5 and earlier */
+				-webkit-gradient(linear, 0 0, 0 100%, 
+					color-stop(0.5, rgba(255, 255, 255, 0.25)), 
+					color-stop(0.5, rgba(255, 255, 255, 0)), 
+					color-stop(1, rgba(255, 255, 255, 0))),
+				-webkit-gradient(linear, 0 0, 100% 0, 
+					color-stop(0.5, rgba(255, 255, 255, 0.25)), 
+					color-stop(0.5, rgba(255, 255, 255, 0)), 
+					color-stop(1, rgba(255, 255, 255, 0)));
+			background-image: /* Chrome and Nightly webkit build (Safari 6 and newer) */
+				-webkit-linear-gradient(90deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0)),
+				-webkit-linear-gradient(0, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0));
+			background-image: /* Firefox */
+				-moz-linear-gradient(90deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0)),
+				-moz-linear-gradient(0, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0));
+			background-image: /* IE10 */
+				-ms-linear-gradient(90deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0) 100%),
+				-ms-linear-gradient(0deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0));
+			background-image: /* opera */
+				-o-linear-gradient(90deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0) 100%),
+				-o-linear-gradient(0, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0));
+			background-image: 
+				linear-gradient(90deg, 
+					rgba(255, 255, 255, 0.25) 50%, 
+					rgba(255, 255, 255, 0) 50%,
+					rgba(255, 255, 255, 0) 100%),
+				linear-gradient(0, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0));
+					
+			/* background-color: red; */
+}
+.kitchenTiles {
+	background-image: 
+				-webkit-gradient(linear, 0 0, 0 100%, 
+					color-stop(0.05, rgba(255, 255, 255, 1)), 
+					color-stop(0.05, rgba(255, 255, 255, 0.2)), 
+					color-stop(0.5, rgba(255, 255, 255, 0.2)),  
+					color-stop(0.5, rgba(255, 255, 255, 1)),  
+					color-stop(0.55, rgba(255, 255, 255, 1)), 
+					color-stop(0.55, rgba(255, 255, 255, 0))),
+				-webkit-gradient(linear, 0 0, 100% 0, 
+					color-stop(0.05, rgba(255, 255, 255, 1)), 
+					color-stop(0.05, rgba(255, 255, 255, 0.2)), 
+					color-stop(0.5, rgba(255, 255, 255, 0.2)),  
+					color-stop(0.5, rgba(255, 255, 255, 1)),  
+					color-stop(0.55, rgba(255, 255, 255, 1)), 
+					color-stop(0.55, rgba(255, 255, 255, 0)));
+			background-image: 
+				-moz-linear-gradient(90deg,  
+					rgba(255, 255, 255, 1) 5%, 
+					rgba(255, 255, 255, .25) 5%,
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 1) 50%, 
+					rgba(255, 255, 255, 1) 55%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(255, 255, 255, 0)),
+				-moz-linear-gradient(0,   
+					rgba(255, 255, 255, 1)5%, 
+					rgba(255, 255, 255, .25) 5%,
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 1) 50%, 
+					rgba(255, 255, 255, 1) 55%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(255, 255, 255, 0));
+			
+			background-image: 
+				-ms-linear-gradient(90deg,  
+					rgba(255, 255, 255, 1) 5%, 
+					rgba(255, 255, 255, .25) 5%,
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 1) 50%, 
+					rgba(255, 255, 255, 1) 55%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(255, 255, 255, 0)),
+				-ms-linear-gradient(0deg,   
+					rgba(255, 255, 255, 1)5%, 
+					rgba(255, 255, 255, .25) 5%,
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 1) 50%, 
+					rgba(255, 255, 255, 1) 55%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(255, 255, 255, 0));
+			background-image: 
+				-o-linear-gradient(90deg,  
+					rgba(255, 255, 255, 1) 5%, 
+					rgba(255, 255, 255, .25) 5%,
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 1) 50%, 
+					rgba(255, 255, 255, 1) 55%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(255, 255, 255, 0)),
+				-o-linear-gradient(0,   
+					rgba(255, 255, 255, 1)5%, 
+					rgba(255, 255, 255, .25) 5%,
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 1) 50%, 
+					rgba(255, 255, 255, 1) 55%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(255, 255, 255, 0));
+				background-image: 
+				linear-gradient(90deg,  
+					rgba(255, 255, 255, 1) 5%, 
+					rgba(255, 255, 255, .25) 5%,
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 1) 50%, 
+					rgba(255, 255, 255, 1) 55%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(255, 255, 255, 0)),
+				linear-gradient(0,   
+					rgba(255, 255, 255, 1)5%, 
+					rgba(255, 255, 255, .25) 5%,
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 1) 50%, 
+					rgba(255, 255, 255, 1) 55%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(255, 255, 255, 0));
+				
+			/* background-color: red; */
+}

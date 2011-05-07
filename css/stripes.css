@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/* 
+
+Author: Estelle Weyl 
+		http://www.standardista.com 
+		http://www.twitter.com/estellevw
+		
+The background in jail cell is a second gradient. Remove the second gradient if you want a different background to shine thru the bars.
+
+
+*/
+
+
+.verticalStripe {
+			background-image: 
+				-webkit-gradient(linear, 0 0, 100% 0, 
+					color-stop(0.5, rgba(255, 255, 255, 0.25)), 
+					color-stop(0.5, rgba(255, 255, 255, 0)), 
+					color-stop(1, rgba(255, 255, 255, 0)));
+			background-image: 
+				-moz-linear-gradient(0, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0));
+			background-image: 
+				-ms-linear-gradient(0deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0) 100%);
+			background-image: 
+				-o-linear-gradient(0, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0) 100%);
+			background-image: 
+				linear-gradient(0, 
+					rgba(255, 255, 255, 0.25) 50%, 
+					rgba(255, 255, 255, 0) 50%,
+					rgba(255, 255, 255, 0) 100%);
+	}
+.jailcell {
+			background-image: 
+				-webkit-gradient(linear, 0 0, 100% 0, 
+					color-stop(0, #666),
+					color-stop(0.2, #aaa), 
+					color-stop(0.4, #666),  
+					color-stop(0.4, rgba(0, 0, 0, 0)), 
+					color-stop(1, rgba(0, 0, 0, 0))),
+				-webkit-gradient(linear, 0 0, 100% 0%, 
+					color-stop(0, #999), 
+					color-stop(1, #666));
+			background-image: 
+				-moz-linear-gradient(0, 
+					#666 0%, 
+					#aaa 20%,
+					#666 40%,
+					rgba(255,255,255,0) 40.1%,
+					rgba(255,255,255,0) 100%),
+				-moz-linear-gradient(90deg, 
+					#aaa 0%, 
+					#ccc 100%);
+			background-image: 
+				-ms-linear-gradient(0deg, 
+					#666 0%, 
+					#aaa 20%,
+					#666 40%,
+					rgba(255,255,255,0) 40.1%,
+					rgba(255,255,255,0) 100%),
+				-ms-linear-gradient(90deg, 
+					#aaa 0%, 
+					#ccc 100%);
+			background-image: 
+				-o-linear-gradient(0, 
+					#666 0%, 
+					#aaa 20%,
+					#666 40%,
+					rgba(255,255,255,0) 40.1%,
+					rgba(255,255,255,0) 100%),
+				-o-linear-gradient(90deg, 
+					#aaa 0%, 
+					#ccc 100%);
+			background-image: 
+				linear-gradient(0, 
+					#666 0%, 
+					#aaa 20%,
+					#666 40%,
+					rgba(255,255,255,0) 40.1%,
+					rgba(255,255,255,0) 100%),
+				linear-gradient(90deg, 
+					#aaa 0%, 
+					#ccc 100%);
+			-moz-background-size:40px 40px, 100% 100%; /*for FF3.6 */
+			background-size:40px 40px, 100% 100%;
+	}
+.horizontalStripe {
+			background-image: 
+				-webkit-gradient(linear, 0 0, 0 100%, 
+					color-stop(0.5, rgba(255, 255, 255, 0.25)), 
+					color-stop(0.5, rgba(255, 255, 255, 0)), 
+					color-stop(1, rgba(255, 255, 255, 0)));
+			background-image: 
+				-moz-linear-gradient(90deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0));
+			background-image: 
+				-ms-linear-gradient(90deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0) 100%);
+			background-image: 
+				-o-linear-gradient(90deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0) 100%);
+			background-image: 
+				linear-gradient(90deg, 
+					rgba(255, 255, 255, 0.25) 50%, 
+					rgba(255, 255, 255, 0) 50%,
+					rgba(255, 255, 255, 0) 100%);
+	}
+	.horizontalStripe2 {
+			background-image: 
+				-webkit-gradient(linear, 0 0, 0 100%, 
+					color-stop(0.5, rgba(255, 255, 255, 0.25)), 
+					color-stop(0.5, rgba(255, 255, 255, 0)), 
+					color-stop(1, rgba(255, 255, 255, 0))),
+				-webkit-gradient(linear, 0 0, 100% 100%, 
+					color-stop(0, rgba(255, 0, 124, 1)), 
+					color-stop(1, rgba(255, 124, 255, 1)));
+			
+			background-image: 
+				-webkit-linear-gradient(90deg, 
+					rgba(255, 255, 255, 0.25) 50%, 
+					rgba(255, 255, 255, 0) 50%,
+					rgba(255, 255, 255, 0) 100%),
+				-webkit-linear-gradient(135deg, 
+					rgba(255, 0, 124, 1) 0%, 
+					rgba(255, 124, 255, 1) 100%);
+			background-image: 
+				-moz-linear-gradient(90deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0)),
+				-moz-linear-gradient(135deg, 
+					rgba(255, 0, 124, 1) 0%, 
+					rgba(255, 124, 255, 1) 100%)
+					;
+			background-image: 
+				-ms-linear-gradient(90deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0) 100%),
+				-ms-linear-gradient(135deg, 
+					rgba(255, 0, 124, 1) 0%, 
+					rgba(255, 124, 255, 1) 100%);
+			background-image: 
+				-o-linear-gradient(90deg, 
+					rgba(255, 255, 255, .25) 50%, 
+					rgba(255, 255, 255, 0) 50%, 
+					rgba(255, 255, 255, 0) 100%),
+				-o-linear-gradient(135deg, 
+					rgba(255, 0, 124, 1) 0%, 
+					rgba(255, 124, 255, 1) 100%);
+			background-image: 
+				linear-gradient(90deg, 
+					rgba(255, 255, 255, 0.25) 50%, 
+					rgba(255, 255, 255, 0) 50%,
+					rgba(255, 255, 255, 0) 100%),
+				linear-gradient(45deg, 
+					rgba(255, 0, 124, 1) 0%, 
+					rgba(255, 124, 255, 1) 100%));
+			-webkit-background-size: 40px 40px,100% 100%;
+			-moz-background-size: 40px 40px,100% 100%;
+			background-size: 40px 40px,100% 100%; 
+	}
