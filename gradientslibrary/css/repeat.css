@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* 
+
+Author: Estelle Weyl 
+		http://www.standardista.com 
+		http://www.twitter.com/estellevw
+		
+This is not supported in Safari 5 or earlier, but is supported in FF4, Chrome and the webkit nightly builds.
+
+
+
+*/
+
+.repeatLin{
+background-image: 
+		-webkit-repeating-linear-gradient(left, 
+			rgba(0,0,0,0.5) 8%, 
+			rgba(0,0,0,0.1) 24%);
+background-image: 		
+		-moz-repeating-linear-gradient(left, 
+			rgba(0,0,0,0.5) 8%, 
+			rgba(0,0,0,0.1) 24%);
+
+background-image: 		
+		-ms-repeating-linear-gradient(left, 
+			rgba(0,0,0,0.5) 8%, 
+			rgba(0,0,0,0.1) 24%);
+background-image: 		
+		-o-repeating-linear-gradient(left, 
+			rgba(0,0,0,0.5) 8%, 
+			rgba(0,0,0,0.1) 24%);
+background-image: 		
+		repeating-linear-gradient(left, 
+			rgba(0,0,0,0.5) 8%, 
+			rgba(0,0,0,0.1) 24%);
+}
+.repeatBoth{
+background-image: 
+		-webkit-repeating-linear-gradient(left, 
+			rgba(0,0,0,0.5) 8%, 
+			rgba(0,0,0,0.1) 24%),
+		-webkit-repeating-radial-gradient(40px 40px, circle, 
+			rgba(0,0,0,0.9), 
+			rgba(0,0,0,0.1) 8%, 
+			rgba(0,0,0,0.5) 16%);
+	
+background-image: 		
+		-moz-repeating-linear-gradient(left, 
+			rgba(0,0,0,0.5) 8%, 
+			rgba(0,0,0,0.1) 24%),
+		-moz-repeating-radial-gradient(40px 40px, circle, 
+			rgba(0,0,0,0.9), 
+			rgba(0,0,0,0.1) 8%, 
+			rgba(0,0,0,0.5) 16%);
+
+background-image: 		
+		-ms-repeating-linear-gradient(left, 
+			rgba(0,0,0,0.5) 8%, 
+			rgba(0,0,0,0.1) 24%),
+		-ms-repeating-radial-gradient(40px 40px, circle, 
+			rgba(0,0,0,0.9), 
+			rgba(0,0,0,0.1) 8%, 
+			rgba(0,0,0,0.5) 16%);
+			
+background-image: 		
+		-o-repeating-linear-gradient(left, 
+			rgba(0,0,0,0.5) 8%, 
+			rgba(0,0,0,0.1) 24%),
+		-o-repeating-radial-gradient(40px 40px, circle, 
+			rgba(0,0,0,0.9), 
+			rgba(0,0,0,0.1) 8%, 
+			rgba(0,0,0,0.5) 16%);
+background-image: 		
+		repeating-linear-gradient(left, 
+			rgba(0,0,0,0.5) 8%, 
+			rgba(0,0,0,0.1) 24%),
+		repeating-radial-gradient(40px 40px, circle, 
+			rgba(0,0,0,0.9), 
+			rgba(0,0,0,0.1) 8%, 
+			rgba(0,0,0,0.5) 16%);
+}
+.repeatRad{
+background-image: 
+		-webkit-repeating-radial-gradient(40px 40px, circle, 
+			rgba(0,0,0,0.9), 
+			rgba(0,0,0,0.1) 8%, 
+			rgba(0,0,0,0.5) 16%);
+	
+background-image: 		
+		-moz-repeating-radial-gradient(40px 40px, circle, 
+			rgba(0,0,0,0.9), 
+			rgba(0,0,0,0.1) 8%, 
+			rgba(0,0,0,0.5) 16%);
+
+background-image: 		
+		-ms-repeating-radial-gradient(40px 40px, circle, 
+			rgba(0,0,0,0.9), 
+			rgba(0,0,0,0.1) 8%, 
+			rgba(0,0,0,0.5) 16%);
+background-image: 		
+		-o-repeating-radial-gradient(40px 40px, circle, 
+			rgba(0,0,0,0.9), 
+			rgba(0,0,0,0.1) 8%, 
+			rgba(0,0,0,0.5) 16%);
+background-image: 		
+		repeating-radial-gradient(40px 40px, circle, 
+			rgba(0,0,0,0.9), 
+			rgba(0,0,0,0.1) 8%, 
+			rgba(0,0,0,0.5) 16%);
+}

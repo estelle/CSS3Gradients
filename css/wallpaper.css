@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wallpaper {
+	background-image:
+				-webkit-gradient(radial, 50 10, 0, 50 10, 18,
+					color-stop(0, rgba(36, 36, 36, 1)), 
+					color-stop(0.5, rgba(36, 36, 36, 1)), 
+					color-stop(0.5, rgba(36, 36, 36, 0))),
+				-webkit-gradient(radial, 50 10, 0, 50 10, 18,
+					color-stop(0, rgba(36, 36, 36, 1)), 
+					color-stop(0.5, rgba(36, 36, 36, 1)), 
+					color-stop(0.5, rgba(36, 36, 36, 0))),
+				-webkit-gradient(radial, 50 10, 0, 50 10, 18,
+					color-stop(0, rgba(72, 72, 72, 1)), 
+					color-stop(0.5, rgba(72, 72, 72, 1)), 
+					color-stop(0.5, rgba(72, 72, 72, 0))),
+				-webkit-gradient(radial, 50 10, 0, 50 10, 18,
+					color-stop(0, rgba(72, 72, 72, 1)), 
+					color-stop(0.5, rgba(72, 72, 72, 1)), 
+					color-stop(0.5, rgba(72, 72, 72, 0))),
+				-webkit-gradient(linear, 0 0, 100% 0, 
+					color-stop(0.25, rgba(36, 36, 36, 1)), 
+					color-stop(0.25, rgba(255, 255, 255, 0)), 
+					color-stop(0.55, rgba(255, 255, 255, 0)),
+					color-stop(0.55, rgba(202, 202, 202, 1)),
+					color-stop(0.70, rgba(202, 202, 202, 1)),
+					color-stop(0.70, rgba(255, 255, 255, 0))
+					)
+				;
+			background-image: 
+				-webkit-radial-gradient(circle,  
+					rgba(36, 36, 36, 1) 17%, 
+					rgba(36, 36, 36, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+					-webkit-radial-gradient(circle, 
+					rgba(36, 36, 36, 1) 17%, 
+					rgba(36, 36, 36, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+					-webkit-radial-gradient(circle, 
+					rgba(72, 72, 72, 1) 17%, 
+					rgba(72, 72, 72, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+					-webkit-radial-gradient(circle, 
+					rgba(72, 72, 72, 1) 17%, 
+					rgba(72, 72, 72, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+				-webkit-linear-gradient(0, 
+					rgba(36, 36, 36, 1) 25%, 
+					rgba(36, 36, 36, 0) 25%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(202, 202, 202, 1) 55%, 
+					rgba(202, 202, 202, 1) 70%, 
+					rgba(255, 255, 255, 0) 70%, 
+					rgba(255, 255, 255, 0) 100%
+					);
+			background-image: 
+				-moz-radial-gradient(circle,  
+					rgba(36, 36, 36, 1) 17%, 
+					rgba(36, 36, 36, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+					-moz-radial-gradient(circle, 
+					rgba(36, 36, 36, 1) 17%, 
+					rgba(36, 36, 36, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+					-moz-radial-gradient(circle, 
+					rgba(72, 72, 72, 1) 17%, 
+					rgba(72, 72, 72, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+					-moz-radial-gradient(circle, 
+					rgba(72, 72, 72, 1) 17%, 
+					rgba(72, 72, 72, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+				-moz-linear-gradient(0, 
+					rgba(36, 36, 36, 1) 25%, 
+					rgba(36, 36, 36, 0) 25%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(202, 202, 202, 1) 55%, 
+					rgba(202, 202, 202, 1) 70%, 
+					rgba(255, 255, 255, 0) 70%, 
+					rgba(255, 255, 255, 0) 100%
+					);	
+			background-image: 
+				-ms-radial-gradient(circle,  
+					rgba(36, 36, 36, 1) 17%, 
+					rgba(36, 36, 36, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+				-ms-radial-gradient(circle, 
+					rgba(36, 36, 36, 1) 17%, 
+					rgba(36, 36, 36, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+				-ms-radial-gradient(circle, 
+					rgba(72, 72, 72, 1) 17%, 
+					rgba(72, 72, 72, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+				-ms-radial-gradient(circle, 
+					rgba(72, 72, 72, 1) 17%, 
+					rgba(72, 72, 72, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+				-ms-linear-gradient(0deg, 
+					rgba(36, 36, 36, 1) 25%, 
+					rgba(36, 36, 36, 0) 25%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(202, 202, 202, 1) 55%, 
+					rgba(202, 202, 202, 1) 70%, 
+					rgba(255, 255, 255, 0) 70%, 
+					rgba(255, 255, 255, 0) 100%
+					);
+			background-image: 
+				-o-radial-gradient(circle,  
+					rgba(36, 36, 36, 1) 17%, 
+					rgba(36, 36, 36, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+					-o-radial-gradient(circle, 
+					rgba(36, 36, 36, 1) 17%, 
+					rgba(36, 36, 36, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+					-o-radial-gradient(circle, 
+					rgba(72, 72, 72, 1) 17%, 
+					rgba(72, 72, 72, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+					-o-radial-gradient(circle, 
+					rgba(72, 72, 72, 1) 17%, 
+					rgba(72, 72, 72, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+				-o-linear-gradient(0, 
+					rgba(36, 36, 36, 1) 25%, 
+					rgba(36, 36, 36, 0) 25%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(202, 202, 202, 1) 55%, 
+					rgba(202, 202, 202, 1) 70%, 
+					rgba(255, 255, 255, 0) 70%, 
+					rgba(255, 255, 255, 0) 100%
+					);
+			background-image: 
+				radial-gradient(circle,  
+					rgba(36, 36, 36, 1) 17%, 
+					rgba(36, 36, 36, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+				radial-gradient(circle, 
+					rgba(36, 36, 36, 1) 17%, 
+					rgba(36, 36, 36, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+				radial-gradient(circle, 
+					rgba(72, 72, 72, 1) 17%, 
+					rgba(72, 72, 72, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+				radial-gradient(circle, 
+					rgba(72, 72, 72, 1) 17%, 
+					rgba(72, 72, 72, 0) 17%, 
+					rgba(0, 0, 0, 0) 100%
+					),
+				linear-gradient(0, 
+					rgba(36, 36, 36, 1) 25%, 
+					rgba(36, 36, 36, 0) 25%, 
+					rgba(255, 255, 255, 0) 55%, 
+					rgba(202, 202, 202, 1) 55%, 
+					rgba(202, 202, 202, 1) 70%, 
+					rgba(255, 255, 255, 0) 70%, 
+					rgba(255, 255, 255, 0) 100%
+					);
+}
+.wallpaper.red, 
+.wallpaper.purple {
+			background-color:#603;
+			background-size: 100px 28px, 100px 28px,100px 28px, 100px 28px, 100px 100px;
+			-moz-background-position: 4px 0pt, 19px 14px, 5px 2px, 19px 16px, 0 0;
+			background-position: 4px 0pt, 19px 14px, 5px 2px, 19px 16px, 0 0;
+}
+.wallpaper.green {
+	
+			background-image:
+				-webkit-gradient(radial, 25 10, 0, 25 10, 9,
+					color-stop(0, rgba(36, 36, 36, 1)), 
+					color-stop(0.5, rgba(36, 36, 36, 1)), 
+					color-stop(0.5, rgba(36, 36, 36, 0))),
+				-webkit-gradient(radial, 25 10, 0, 25 10, 9,
+					color-stop(0, rgba(36, 36, 36, 1)), 
+					color-stop(0.5, rgba(36, 36, 36, 1)), 
+					color-stop(0.5, rgba(36, 36, 36, 0))),
+				-webkit-gradient(radial, 25 10, 0, 25 10, 9,
+					color-stop(0, rgba(72, 72, 72, 1)), 
+					color-stop(0.5, rgba(72, 72, 72, 1)), 
+					color-stop(0.5, rgba(72, 72, 72, 0))),
+				-webkit-gradient(radial, 25 10, 0, 25 10, 9,
+					color-stop(0, rgba(72, 72, 72, 1)), 
+					color-stop(0.5, rgba(72, 72, 72, 1)), 
+					color-stop(0.5, rgba(72, 72, 72, 0))),
+				-webkit-gradient(linear, 0 0, 100% 0, 
+					color-stop(0.25, rgba(36, 36, 36, 1)), 
+					color-stop(0.25, rgba(255, 255, 255, 0)), 
+					color-stop(0.55, rgba(255, 255, 255, 0)),
+					color-stop(0.55, rgba(202, 202, 202, 1)),
+					color-stop(0.70, rgba(202, 202, 202, 1)),
+					color-stop(0.70, rgba(255, 255, 255, 0))
+					)
+				;
+			background-color:#363;
+			background-size: 50px 14px, 50px 14px, 50px 14px, 50px 14px, 50px 50px;
+			-moz-background-position: 6px 0pt, 29px 7px, 6px 1px, 30px 8px, 0 0;
+			background-position: 6px 0pt, 29px 7px, 6px 1px, 30px 8px, 0 0;
+}
+.wallpaper.purple {
+			background-color:#336;
+			
+}
