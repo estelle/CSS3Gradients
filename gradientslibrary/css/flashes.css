@@ -614,7 +614,76 @@ background-image:
 		rgba(189,58,54,0.0) 36.4%,
 		rgba(0,0,0,0) 40.0%)/**/;	
 		
-		background-image:
+		background-image: 	-o-radial-gradient(circle, 
+		rgba(255,255,255,0.4) 0%,  
+		rgba(255,255,255,0) 28%,
+		rgba(255,255,255,0) 40%
+		),
+	-o-radial-gradient(circle,
+		rgba(255,255,255,0.4) 0, 
+		rgba(255,255,255,0) 28%,
+		rgba(255,255,255,0) 40% 
+		),
+	-o-radial-gradient(circle,
+		rgba(255,255,255,0.4) 0%, 
+		rgba(255,255,255,0) 3.5%,
+		rgba(255,255,255,0) 5%
+		),
+	-o-radial-gradient(circle,
+		rgba(255,255,255,0.4) 0%, 
+		rgba(255,255,255,0) 3.5%,
+		rgba(255,255,255,0) 5%
+		), 
+	/* red circle with white center  -RedB */
+	-o-radial-gradient(circle,
+		rgba(255,255,255,0.95) 0%, 
+		rgba(255,255,255,0.8) 4%,
+		rgba(189,58,54,0.21) 28%,
+		rgba(189,58,54,0) 34%,
+		rgba(189,58,54,0.53) 36%,
+		rgba(189,58,54,0) 38%, 
+		rgba(189,58,54,0) 40%
+		),
+	/* large rainbow circle -Flag*/
+	-o-radial-gradient(circle, 
+		rgba(255,255,255,0) 0%, 
+		rgba(0,218,0,0.10) 11.5%,
+		rgba(0,218,0,0.18) 27%,
+		rgba(189,58,54,0.25) 27%,
+		rgba(189,58,54,0.25) 28.5%,
+		rgba(0, 218,0,0) 30%,
+		rgba(0, 0,218,0) 41.5%,
+		rgba(0, 0,218,0.25) 43%,
+		rgba(0,218,0,0.25) 44.5%,
+		rgba(251,218,63,0.18) 46%,
+		rgba(189,58,54,0.25) 47.5%,
+		rgba(189,58,54,0) 50%
+		), 
+	/* green circle with blue center -blue*/
+	-o-radial-gradient(circle,
+		rgba(0,0,218,0.25) 0%,
+		rgba(0,218,0,0.10) 24.0%,
+		rgba(0,218,0,0) 28.0%,
+		rgba(0,0,0,0.35) 28.4%,
+		rgba(0,0,0,0) 36.0%, 
+		rgba(0,0,0,0) 40.0%
+		),  
+	/* single red on top of dim -sr*/
+	-o-radial-gradient(circle,
+		rgba(189,58,54,0.15) 0%,
+		rgba(189,58,54,0.15) 36.0%,
+		rgba(189,58,54,0.0) 36.4%, 
+		rgba(0,0,0,0) 40.0%
+		),
+	/* barely visible red inner and outer cirle -dim*/
+	-o-radial-gradient(circle,
+		rgba(189,58,54,0.25) 0%, 
+		rgba(189,58,54,0.25) 10%,
+		rgba(189,58,54,0.1) 12%,
+		rgba(189,58,54,0.2) 36%,
+		rgba(189,58,54,0.0) 36.4%,
+		rgba(0,0,0,0) 40.0%)/**/;
+    background-image:
 	radial-gradient(circle, 
 		rgba(255,255,255,0.4) 0%,  
 		rgba(255,255,255,0) 28%,
